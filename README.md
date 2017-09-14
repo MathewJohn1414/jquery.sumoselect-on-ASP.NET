@@ -2,6 +2,8 @@
 Explains how to work with jquery.sumoselect in ASP.NET.
 Before you work with the codes provided here, please refer to https://github.com/HemantNegi/jquery.sumoselect.
 
+You can view the basic code for implementing sumoselect on Asp.Net in **sample.aspx**.
+
 # Steps in creating sample.aspx
 
 Step 1: Create a new or open an existing Asp.Net webform.
