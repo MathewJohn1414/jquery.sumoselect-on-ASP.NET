@@ -10,7 +10,7 @@ Step 1: Create a new or open an existing Asp.Net webform.
 
 Step 2: Place the link to jquery-2.1.3+.js
 
-Step 3: Place a list box and edit its items or bind to datasource according to your need. You must its *selection mode* to *multiple*.
+Step 3: Place a list box and edit its items or bind to datasource according to your need. You must set its *selection mode* to *multiple*.
 
 Step 4: Place the curresponding links to sumoselect.css, jquery.sumoselect.js and following lines of script just before the closing body tag.
 
