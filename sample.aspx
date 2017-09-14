@@ -1,16 +1,10 @@
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="sample.aspx.cs" Inherits="Guest_demo" %>
 
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Sumoselect on Asp.Net</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.0.2/sumoselect.min.css"/>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.0.2/jquery.sumoselect.min.js"></script>
-    <!-- Link to jquery 2.1.3 -->
+    <title>Sumoselect on Asp.Net</title> 
+    <!-- Link to jquery -->
     <script src="https://code.jquery.com/jquery-2.1.3.min.js" integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,7 +19,11 @@
             </asp:ListBox>
         </div>
     </form>
-    <script src="../Contents/js/sumoselect-v3.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.0.2/sumoselect.min.css"/>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.0.2/jquery.sumoselect.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function () {
                 $(<%=ListBox1.ClientID%>).SumoSelect();
