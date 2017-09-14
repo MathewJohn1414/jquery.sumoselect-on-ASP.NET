@@ -6,7 +6,7 @@ Before you work with the codes provided here, please refer to https://github.com
 
 Step 1: Create a new or open an existing Asp.Net webform.
 
-Step 2: Write the jquery-2.1.3+.js
+Step 2: Place the link to jquery-2.1.3+.js
 
 Step 3: Place a list box and edit its items or bind to datasource according to your need.
 
